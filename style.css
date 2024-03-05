@@ -10,7 +10,21 @@ body{
     font-size: 14px;
 }
 
-/*------------------------ HEADER İMG ---------------------------*/
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/*------------------------ HEADER ---------------------------*/
 
 .header{
     max-width: 1140px;
@@ -18,17 +32,8 @@ body{
     margin-right: auto;
 }
 
-.header a{
-    margin-bottom: 0;
-}
-
-.header-img img{
-    margin: 7px auto 0 auto;
-    width: 1140px;
-    height: 300px;
-}
-
 .header-img{
+    background-image: url(./images/header.jpg);
     width: 1140px;
     height: 300px;
     padding-left: 15px;
@@ -99,34 +104,103 @@ body{
 
 /*-------------------------- İÇERİK ---------------------------*/
 
-.gorselicerik{
-    margin: 30px auto;
-    width: 100%;
+.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
-.icerik1, .icerik2, .icerik3{
-    display: inline-block;
-    margin: 0 auto;
-    padding-left: -15px;
-    padding-right: -15px;
-    width: 350px;
-    float: inline-start;
-    line-height: 1.6;
-}
-
-
-.icerik{
-    
-    
+.column{
     width: 360px;
-    
+    height: max-content;
+    margin: 15px;
 }
 
 .gorsel{
-    width: 360px;
     height: 180px;
-    border-radius: 5px;
-    float: left; 
-    margin-right: 20px; 
     margin-bottom: 15px;
 }
+
+.home-1{
+    background-image: url(./images/home\ \(1\).jpg);
+    border-radius: 10px;
+}
+
+.home-2{
+    background-image: url(./images/home\ \(2\).jpg);
+    border-radius: 10px;
+}
+
+.home-3{
+    background-image: url(./images/home\ \(3\).jpg);
+    border-radius: 10px;
+}
+
+p{
+    margin: 0 0 10px;
+    line-height: 1.428;
+}
+
+.column ul{
+    display: list-item;
+    margin: 0 0 0 30px;
+    line-height: 1.428;
+    margin-bottom: 10px;
+}
+
+/*------------------ BUTONLAR ---------------*/
+
+.btn-first, .btn-second{
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-first{
+    color: #FFFFFF;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-second{
+    color: #FFFFFF;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-first a, .btn-second a{
+    color: #FFFFFF;
+}
+
+.btn-third{
+    color: #428bca;
+}
+
+.btn-third:hover{
+    color: #4cae4c;
+    text-decoration: underline;
+}
+
+
+/*------------------ FOOTER ------------------ */
+
+hr{
+    width: 1140px;
+    margin: 0 auto;
+    border: thin solid lightgrey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Home Page bittiiii, navbar hariç benzerliği çok yakın oldu, tarih atmak istiyorum 05.03.2024-14.49 :)) */
