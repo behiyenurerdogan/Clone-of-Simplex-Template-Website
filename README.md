@@ -14,3 +14,4 @@ Merhaba! Yaklaşık 5 aydır kendi kendime belirli bir noktaya getirdiğim HTML5
 Projenin responsive bir tasarıma sahip olduğunu iddia edemem ancak benzerlik ve çalışma açısında neredeyse birebir oldu. Öğrendiklerimi pratik ettim, bilmediğim birkaç şey daha öğrenip uyguladım, çıkardığım işten çok memnun kaldım.
 Sonraki projelerde becerilerimi hep bir ileri seviyeye taşıyacağıma inanıyorum.
 
+
